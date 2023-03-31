@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 :root {
   --dsct-color-bg-primary: #3c9af0;
 
-  --dsct-color-font-primary: #5E5E5E;
-  --dsct-color-font-secondary: #FFF;
-  --dsct-color-font-tertiary: #3C9AF0;
+  --dsct-color-font-primary: #5e5e5e;
+  --dsct-color-font-secondary: #fff;
+  --dsct-color-font-tertiary: #3c9af0;
+
+  --dsct-color-border-primary: #3c9af0;
 }
 
 * {
@@ -24,4 +26,11 @@ a:hover {
 html,
 body {
   background-color: var(--dsc-color-bg-primary);
+}
+
+h2 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 20px;
+  color: var(--dsct-color-font-primary);
 }
