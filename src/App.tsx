@@ -1,4 +1,5 @@
-import CarCardsSection from "./components/CarCardsSection";
+import CarCards from "./components/CarCards";
+import CommentCards from "./components/CommentCards";
 import Header from "./components/Header";
 
 export default function App() {
@@ -6,9 +7,19 @@ export default function App() {
     <>
       <Header />
       <main>
-        <h2>Venha nos visitar</h2>
-       <CarCardsSection />
-       <CarCardsSection />
+        <section id="dsct-car-cards-section">
+          <h2>Venha nos visitar</h2>
+          <CarCards />
+          <CarCards />
+        </section>
+        <section id="dsct-comment-cards-section">
+          <h2>O que estão dizendo</h2>
+          <CommentCards />
+          <CommentCards />
+          <CommentCards />
+          <CommentCards />
+          <CommentCards />
+        </section>
       </main>
     </>
   );

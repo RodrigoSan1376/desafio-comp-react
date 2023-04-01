@@ -2,6 +2,8 @@
 
 :root {
   --dsct-color-bg-primary: #3c9af0;
+  --dsct-color-bg-secondary: #C8C8C8;
+  --dsct-color-bg-tertiary: #FFF;
 
   --dsct-color-font-primary: #5e5e5e;
   --dsct-color-font-secondary: #fff;
@@ -33,4 +35,10 @@ h2 {
   text-align: center;
   font-size: 20px;
   color: var(--dsct-color-font-primary);
+}
+
+@media(min-width: 576px) {
+  h2 {    
+    font-size: 32px;    
+  }
 }
