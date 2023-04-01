@@ -1,5 +1,6 @@
 import CarCards from "./components/CarCards";
 import CommentCards from "./components/CommentCards";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <CommentCards />
         </section>
       </main>
+      <Footer />
     </>
   );
 }

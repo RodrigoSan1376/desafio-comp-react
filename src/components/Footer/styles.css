@@ -1,0 +1,36 @@
+footer {
+  height: 120px;
+  background-color: var(--dsct-color-bg-primary);
+  color: var(--dsct-color-font-secondary);
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  text-align: center;
+}
+
+.dsct-footer-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dsct-footer-content p {
+  font-size: 16px;
+}
+
+.dsct-instagram {
+    margin-bottom: 10px;
+  }
+
+@media (min-width: 1200px) {
+  .dsct-footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dsct-instagram {
+    margin-bottom: 0;
+  }
+}
